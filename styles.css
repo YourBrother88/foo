@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+html {
+    background-color: #000000;
+    margin: 20px 40px;
+    color: #008000;
+    font-size: 13px;
+    font-family: 'Consolas', Courier, monospace
+}
+
+header {
+    color: #C0C060;
+    font-size: 25pt;
+    font-weight: bolder;
+    text-align: center;
+}
+
+header::before { content: ">"; }
+header::after { content: "<"; }
+
+nav > ul {
+   line-height: 1.5em;
+   padding: 20px;
+   background-color: #202020;
+}
+
+h1 {
+    color: #800080;
+    font-size: 20px;
+}
+
+a:visited, a:link {
+    color: #FF0000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff7f7f;
+}
+
+/* D E S C R I P T I O N  L I S T */
+
+dt {
+    padding: 5px;
+    background-color: #101010;
+}
+
+dl {
+    padding: 10px;
+    padding-bottom: 5px;
+    background-color: #202020;
+}
+
+dd {
+    padding: 5px;
+}
+
+dd:before { content: ">>> "; }
+
+
+
+
+ul {
+    list-style-type: "> ";
+    list-style-position: inside;
+}
+
+footer {
+    text-align: center;
+}
